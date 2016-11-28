@@ -1,0 +1,274 @@
+html, body, p {
+    margin: 0;
+    padding: 0;
+}
+
+.noscroll {
+    overflow: hidden;
+}
+
+.orange {
+    background-color: #FF5722;
+}
+
+.teal {
+    background-color: #009688;
+}
+
+.cyan {
+    background-color: #00BCD4;
+}
+
+.red {
+    background-color: #FF5252;
+}
+
+.purple {
+    background-color: #9C27B0;
+}
+
+.blue {
+    background-color: #448AFF;
+}
+
+.pink {
+    background-color: #E91E63;
+}
+
+.brown {
+    background-color: #795548;
+}
+
+html {
+    font-family: 'Whitney SSm A', 'Whitney SSm B', 'Whitney';
+    font-size: 14px;
+    font-variant: normal;
+    font-weight: 400;
+    color: white;
+}
+
+body {
+    background: -webkit-linear-gradient(to left, #DE6262 , #FFB88C);
+    background: linear-gradient(to left, #DE6262 , #FFB88C);
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.header {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.headline {
+    font-size: 4.5rem;
+    font-weight: 800;
+    text-shadow: 0px 1px 2px rgba(72, 45, 38, 0.5);
+    letter-spacing: -1px;
+}
+
+.baseline {
+    margin-top: 10px;
+    font-size: 1.25rem;
+}
+
+.search {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+
+    text-align: center;
+}
+
+.search .label {
+    font-size: 1.375rem;
+    margin: 20px 0px 10px 10px;
+}
+
+.search input[type="text"] {
+    width: 100%;
+    padding: 0px 20px;
+
+    line-height: 40px;
+    border-radius: 20px;
+
+    background-color: #FAFAFA;
+    border: 1px solid #AF3F3E;
+    outline: none;
+
+    color: #4a4a4a;
+    font-size: 1rem;
+}
+
+.search input[type="text"]:focus {
+    box-shadow: 0px 0px 0px 2px #AF3F3E;
+}
+
+.tagbox {
+    margin-top: 20px;
+}
+
+.tag {
+    position: relative;
+    display: inline-block;
+    padding: 5px 12px;
+    margin: 3px;
+    border-radius: 15px;
+    line-height: 19px;
+    
+    color: white;
+
+    cursor: pointer;
+    transition: transform .1s linear;
+}
+
+.search .tag {
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,.3);    
+}
+
+.search .tag:hover {
+    transform: translate(0px, -1px) scale(1.05);
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,.2);
+}
+
+.search .tag:active {
+    transform: translate(0px, 1px) scale(0.95);
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,.3);
+}
+
+.email {
+    position: relative;
+    margin: 10px 5px;
+    padding: 20px;
+    border-radius: 8px;
+    height: 400px;
+
+    background: #ffffff;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+
+    color: #4a4a4a;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    cursor: pointer;
+}
+
+.email .pad {
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    bottom: 0px;
+    left: 0px;
+    background-image: linear-gradient( 180deg, rgba(255, 255, 255, 0) 00%, #FFFFFF 70% );
+}
+
+.email:hover {
+    box-shadow: 0px 0px 0px 3px #AF3F3E, 0px 2px 4px 0px rgba(0,0,0,0.50);
+}
+
+.close {
+    display: none;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 20px;
+    text-align: center;
+    font-size: 24px;
+    color: #6F6F6F;
+    cursor: pointer;
+}
+
+.brand {
+    margin-bottom: 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+.brand-logo {
+    height: 60px;
+}
+
+.brand-name {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.email .tags {
+    margin-bottom: 25px;
+}
+
+.email-headers {
+    margin-bottom: 25px;
+    font-size: 1.33rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.email-copy {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.emails > div.active {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    background-color: rgba(0,0,0,.5);
+}
+
+.emails > div.active .email {
+    height: auto;
+    max-height: 95%;
+    max-width: 540px;
+    overflow-y: scroll;
+    cursor: inherit;
+}
+
+.emails > div.active .email .pad {
+    display: none;
+}
+
+.emails > div.active .close {
+    display: block;
+}
+
+.emails > div.active .email-headers {
+    white-space: inherit;
+}
+
+.footer {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+@media (max-width: 600px) {
+    .headline {
+        font-size: 3.25rem;
+        letter-spacing: 0px;
+    }
+
+    .email {
+        margin: 20px 5px;
+    }
+}
