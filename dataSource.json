@@ -23,10 +23,12 @@
     "idMembers": [],
     "labels": [
         {
-            "id": "56f2dfbd152c3f92fd8ae90b",
-            "idBoard": "556cac93925bb07f2997b968",
-            "name": "welcome",
+            "name": "SRA",
             "color": "orange",
+            "uses": 15
+        },{
+            "name": "Discrepancy",
+            "color": "pink",
             "uses": 15
         }
     ], "shortUrl": "https://trello.com/c/dGRUiHrv",
