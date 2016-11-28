@@ -47,7 +47,7 @@ var cardsToTemplates = function (cards) {
     return templates;
 };
 
-loadJSON('/dataSource.json', function (cards) {
+loadJSON('dataSource.json', function (cards) {
     var templates = cardsToTemplates(cards);
     
     for (var i = 0; i < templates.length; i++) {
