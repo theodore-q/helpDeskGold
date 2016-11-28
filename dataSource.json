@@ -40,7 +40,9 @@
     "checkItemStates": null,
     "closed": false,
     "dateLastActivity": "2016-04-05T02:29:06.847Z",
-    "desc": "Hi Ashley,\n\nThanks for signing up!\n\nLots of software say they can do anything and everything for you. We are *not* one of them. KiSSFLOW is not a jack of all trades. We have mastered one thing really well: *workflows*.\nNow, do you have a workflow problem or a task management problem or both?! Tough, right!? That’s exactly why I am writing to you. Within 5 minutes I can assess if KiSSFLOW is best fit for the problem you have, saving you lots of time on evaluation. I value time and wish neither of us waste it.\n\nI will call you in the next 30 minutes or do you want to do this over email?\n\nCheers,\nBen",
+    "desc": "We follow IAB guidelines for filtering and are MRC accredited. We filter based on a User agent black list that is supplied by the IAB, as well as a threshold filter that will filter out interactions/activity when a user exceeds a threshold in a set amount of time. We are unable to share these thresholds externally as the IAB recommends that this information stay internal so filtering mechanisms cannot be circumvented.
+
+In this case, none of the users who recorded conversions exceeded our filtering guidelines, and as such their actions were not filtered from reporting.",
     "descData": {
         "emoji": {}
     },
@@ -51,22 +53,9 @@
     "idAttachmentCover": "5578787815c73d2212a9a793",
     "manualCoverAttachment": false,
     "idLabels": ["56f2dfbd152c3f92fd8ae90b"],
-    "name": "KiSSFLOW is *not* for everyone! :: KiSSFLOW",
+    "name": "Could you please provide me with more details about these thresholds which need to be exceeded in order to filter conversions?",
     "pos": 131071,
     "shortLink": "Fh68Xs9K",
-    "badges": {
-        "votes": 0,
-        "viewingMemberVoted": false,
-        "subscribed": false,
-        "fogbugz": "",
-        "checkItems": 0,
-        "checkItemsChecked": 0,
-        "comments": 0,
-        "attachments": 1,
-        "description": true,
-        "due": null,
-        "dueComplete": false
-    },
     "dueComplete": false,
     "due": null,
     "idChecklists": [],
@@ -75,7 +64,7 @@
         {
             "id": "56f2dfbd152c3f92fd8ae90b",
             "idBoard": "556cac93925bb07f2997b968",
-            "name": "welcome",
+            "name": "Filtering",
             "color": "orange",
             "uses": 15
         }
