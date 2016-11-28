@@ -3,7 +3,7 @@
     "checkItemStates": null,
     "closed": false,
     "dateLastActivity": "2016-04-05T02:28:32.839Z",
-    "desc": "SRA stands for Single Request Architecture. When Doubleclick is set up to use SRA, a single request is made that returns all the tags that are to be served to the page. When this happens, Doubleclick records an impression for each tag at the time of this single request, regardless if the tag is actually written to the page. If for any reason our tag doesn't get called, this will result in a discrepancy between our numbers and the publisher numbers./n more detailed infomation can be found here support.google.com/dfp_premium/answer/2521337",
+    "desc": "SRA stands for Single Request Architecture. When Doubleclick is set up to use SRA, a single request is made that returns all the tags that are to be served to the page. When this happens, Doubleclick records an impression for each tag at the time of this single request, regardless if the tag is actually written to the page. If for any reason our tag doesn't get called, this will result in a discrepancy between our numbers and the publisher numbers./n more detailed information can be found here: support.google.com/dfp_premium/answer/2521337",
     "descData": {
         "emoji": {}
     },
