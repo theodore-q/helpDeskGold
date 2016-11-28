@@ -40,9 +40,7 @@
     "checkItemStates": null,
     "closed": false,
     "dateLastActivity": "2016-04-05T02:29:06.847Z",
-    "desc": "We follow IAB guidelines for filtering and are MRC accredited. We filter based on a User agent black list that is supplied by the IAB, as well as a threshold filter that will filter out interactions/activity when a user exceeds a threshold in a set amount of time. We are unable to share these thresholds externally as the IAB recommends that this information stay internal so filtering mechanisms cannot be circumvented.
-
-In this case, none of the users who recorded conversions exceeded our filtering guidelines, and as such their actions were not filtered from reporting.",
+    "desc": "We follow IAB guidelines for filtering and are MRC accredited. We filter based on a User agent black list that is supplied by the IAB, as well as a threshold filter that will filter out interactions/activity when a user exceeds a threshold in a set amount of time. We are unable to share these thresholds externally as the IAB recommends that this information stay internal so filtering mechanisms cannot be circumvented. /n In this case, none of the users who recorded conversions exceeded our filtering guidelines, and as such their actions were not filtered from reporting.",
     "descData": {
         "emoji": {}
     },
@@ -77,7 +75,7 @@ In this case, none of the users who recorded conversions exceeded our filtering 
     "checkItemStates": null,
     "closed": false,
     "dateLastActivity": "2016-04-03T23:11:51.623Z",
-    "desc": "Thanks for helping us reach a huge milestone!\n\nWe just had our greatest month ever for video impressions. In January, videos shared using Graybo generated over 1,000,000,000 impressions - that’s a lot of zeros!\n\nWant to learn how we did it?\n\nYes! (button)",
+    "desc": "Hi ,/n/n I am looking into this and I will update you as soon as possible. Please don't hesitate to reach out to me should you have any questions or concerns./n/nKind regards,/nPanagiotis Galanis/nSizmek Support",
     "descData": {
         "emoji": {}
     },
@@ -88,7 +86,7 @@ In this case, none of the users who recorded conversions exceeded our filtering 
     "idAttachmentCover": "56f5af48c4f9ce42f7184b62",
     "manualCoverAttachment": false,
     "idLabels": ["556cac93664ce8ff306830c8"],
-    "name": "Thanks a billion :: Grabyo",
+    "name": "I am looking into this",
     "pos": 196607,
     "shortLink": "Re5qcXHA",
     "badges": {
@@ -112,7 +110,7 @@ In this case, none of the users who recorded conversions exceeded our filtering 
         {
             "id": "556cac93664ce8ff306830c8",
             "idBoard": "556cac93925bb07f2997b968",
-            "name": "thank you",
+            "name": "Pick up ticket",
             "color": "sky",
             "uses": 4
         }
