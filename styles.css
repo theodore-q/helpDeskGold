@@ -3,6 +3,19 @@ html, body, p {
     padding: 0;
 }
 
+html {
+    font-family: Roboto;
+    font-size: 14px;
+    font-variant: normal;
+    font-weight: 400;
+    color: white;
+}
+
+body {
+    background: -webkit-linear-gradient(to left, #DE6262 , #FFB88C);
+    background: linear-gradient(to left, #DE6262 , #FFB88C);
+}
+
 .noscroll {
     overflow: hidden;
 }
@@ -39,18 +52,7 @@ html, body, p {
     background-color: #795548;
 }
 
-html {
-    font-family: 'Whitney SSm A', 'Whitney SSm B', 'Whitney';
-    font-size: 14px;
-    font-variant: normal;
-    font-weight: 400;
-    color: white;
-}
 
-body {
-    background: -webkit-linear-gradient(to left, #DE6262 , #FFB88C);
-    background: linear-gradient(to left, #DE6262 , #FFB88C);
-}
 
 a {
     color: inherit;
