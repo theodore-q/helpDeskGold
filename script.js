@@ -161,4 +161,4 @@ loadJSON('dataSource.json', function (cards) {
     document.getElementById('searchbox').addEventListener('input', filterAndSearch);
 });
 
-console.log('Brought to you by Front, https://frontapp.com');
+
