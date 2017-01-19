@@ -12,8 +12,7 @@ html {
 }
 
 body {
-    background: -webkit-linear-gradient(to left, #DE6262 , #FFB88C);
-    background: linear-gradient(to left, #DE6262 , #FFB88C);
+    background: url(pattern.png);
 }
 
 .noscroll {
