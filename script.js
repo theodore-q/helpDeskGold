@@ -62,8 +62,8 @@ loadJSON('dataSource.json', function (cards) {
 
         var html = ''+
           '<div class="email">'+
-            '<div class="close">âœ–</div>'+
-            '<div class="brand"><img class="brand-logo"> <span class="brand-name">'+email.from+'</span></div>'+
+            '<div class="close">X</div>'+
+            '<div class="brand"><span class="brand-name">'+email.from+'</span></div>'+
             '<div class="tags">'+tags_html+'</div>'+
             '<div class="email-headers"><strong>'+email.subject.replace('<', '&lt;').replace('>', '&gt;')+'</strong></div>'+
             '<div class="email-copy">'+
@@ -162,3 +162,8 @@ loadJSON('dataSource.json', function (cards) {
 });
 
 
+var pattern = Trianglify({
+    width: window.innerWidth,
+    height: window.innerHeight
+});
+document.body.appendChild(pattern.canvas())
